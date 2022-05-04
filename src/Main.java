@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
         File imagen = new File("Resources/penyagolosa.bmp");
         TransformaImagen transformaImagen = new TransformaImagen(imagen);
-        transformaImagen.transformaNegativo();
+        transformaImagen.transformaBlancoNegro();
     }
 }
